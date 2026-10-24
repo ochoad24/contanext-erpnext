@@ -417,7 +417,7 @@
             "Resultados del Ejercicio": {}, 
             "Utilidades Retenidas": {}, 
             "account_number": "3", 
-            "root_type": "Asset"
+            "root_type": "Equity"
         }
     }
 }
