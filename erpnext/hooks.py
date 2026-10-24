@@ -1,5 +1,5 @@
 app_name = "erpnext"
-app_title = "ERPNext"
+app_title = "ContaNext"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
@@ -7,13 +7,13 @@ app_color = "#e74c3c"
 app_email = "hello@frappe.io"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+app_logo_url = "/assets/contanext_guatemala/images/contanext-mark.svg"
 app_home = "/desk/home"
 
 add_to_apps_screen = [
 	{
 		"name": app_name,
-		"logo": "/assets/erpnext/images/erpnext-logo.svg",
+		"logo": "/assets/contanext_guatemala/images/contanext-mark.svg",
 		"title": app_title,
 		"route": app_home,
 		"setup_wizard_text": "Let's give your business a home.",
@@ -140,8 +140,8 @@ calendars = ["Task", "Work Order", "Sales Order", "Holiday List", "ToDo"]
 website_generators = ["BOM", "Sales Partner"]
 
 website_context = {
-	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+	"favicon": "/assets/contanext_guatemala/images/contanext-mark.svg",
+	"splash_image": "/assets/contanext_guatemala/images/contanext-mark.svg",
 }
 
 # nosemgrep
