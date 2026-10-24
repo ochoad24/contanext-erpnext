@@ -31,18 +31,27 @@
     frappe.boot = JSON.parse({{ boot }});
     frappe.boot.layout_direction = "{{ layout_direction }}";
 
-    frappe._translations_loaded = fetch(
-      `/api/method/frappe.translate.get_boot_translations?v=${frappe.boot.translations_version}&lang=${frappe.boot.lang}`,
-      {
-        credentials: "same-origin",
-        headers: {
-          "X-Frappe-CSRF-Token": frappe.csrf_token,
-          "Accept": "application/json"
-        }
+    if (frappe.boot["__messages"]) {
+      frappe._messages = frappe.boot["__messages"];
+      frappe._translations_loaded = Promise.resolve();
+    } else {
+      const translationParams = new URLSearchParams({ lang: frappe.boot.lang });
+      if (frappe.boot.translations_version) {
+        translationParams.set("v", frappe.boot.translations_version);
       }
-    ).then(r => r.json()).then(data => {
-      frappe._messages = data.message || {};
-    }).catch(() => { });
+
+      frappe._translations_loaded = fetch(
+        `/api/method/frappe.translate.get_boot_translations?${translationParams}`,
+        { credentials: "same-origin" }
+      ).then(response => {
+        if (!response.ok) throw new Error(`Unable to load translations: ${response.status}`);
+        return response.json();
+      }).then(data => {
+        frappe._messages = data.message || {};
+      }).catch(() => {
+        frappe._messages = {};
+      });
+    }
   </script>
   <script type="module" src="/src/main.tsx"></script>
 </body>

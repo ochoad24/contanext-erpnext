@@ -171,7 +171,7 @@ const StatementDetails = ({ data }: Props) => {
                         <TableRow>
                             <TableHead>{_("Transaction Dates")}</TableHead>
                             {data.doc.start_date && data.doc.end_date ? (
-                                <TableCell>{_("{0} to {1}", [formatDate(data.doc.start_date, "Do MMMM YYYY"), formatDate(data.doc.end_date, "Do MMMM YYYY")])}</TableCell>
+                                <TableCell>{_("{0} to {1}", [formatDate(data.doc.start_date, "Do MMMM YYYY"), formatDate(data.doc.end_date, "Do MMMM YYYY")], "Do MMMM YYYY")}</TableCell>
                             ) : (
                                 <TableCell>-</TableCell>
                             )}
@@ -189,7 +189,7 @@ const StatementDetails = ({ data }: Props) => {
                             <TableCell><span className='font-numeric'>{formatCurrency(flt(data.doc.total_credits, 2), data.currency)}</span> <span className='text-ink-gray-5 font-sans'>({data.doc.total_credit_transactions} {data.doc.total_credit_transactions === 1 ? _("transaction") : _("transactions")})</span></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableHead>{_("Closing Balance as of {}", [formatDate(data.doc.end_date, "Do MMMM YYYY")])}</TableHead>
+                            <TableHead>{_("Closing Balance as of {}", [formatDate(data.doc.end_date, "Do MMMM YYYY")], "Do MMMM YYYY")}</TableHead>
                             <TableCell className='font-numeric'>{formatCurrency(flt(data.doc.closing_balance, 2), data.currency)}</TableCell>
                         </TableRow>
                         <TableRow>

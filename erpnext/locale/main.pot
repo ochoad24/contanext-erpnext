@@ -19755,6 +19755,10 @@ msgstr ""
 msgid "Drag a box to move it, or drag a corner to resize. The table is re-read from the new region automatically."
 msgstr ""
 
+#: banking/src/components/features/Settings/Rules/RuleList.tsx:268
+msgid "Drag to reorder"
+msgstr ""
+
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Dram"
@@ -69203,4 +69207,3 @@ msgstr ""
 #, python-brace-format
 msgid "{} {} is not affecting bank account {}"
 msgstr ""
-

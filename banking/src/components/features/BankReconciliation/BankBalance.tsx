@@ -203,7 +203,7 @@ const StatementClosingBalanceRow = () => {
             }
             subLabel={!isDateSame && data?.message.date
                 ? <span className="whitespace-nowrap text-2xs font-medium text-ink-red-3">
-                    {_("As of {0}", [formatDate(data?.message?.date ?? '', 'Do MMM YYYY')])}
+                    {_("As of {0}", [formatDate(data?.message?.date ?? '', 'Do MMM YYYY')], 'Do MMM YYYY')}
                 </span>
                 : undefined}
         >
@@ -340,14 +340,14 @@ const ClosingBalanceForm = ({ defaultBalance, date, bankAccount, onClose }: { de
             <DialogHeader>
                 <DialogTitle>{_("Set closing balance as per bank statement")}</DialogTitle>
                 <DialogDescription>
-                    {_("Enter the closing balance you see in your bank statement for {0} as of the {1}", [bankAccount?.account_name ?? bankAccount?.name ?? '', formatDate(date, 'Do MMM YYYY')])}
+                    {_("Enter the closing balance you see in your bank statement for {0} as of the {1}", [bankAccount?.account_name ?? bankAccount?.name ?? '', formatDate(date, 'Do MMM YYYY')], 'Do MMM YYYY')}
                 </DialogDescription>
             </DialogHeader>
             {error && <div className="py-2"><ErrorBanner error={error} /></div>}
             <div className="py-4">
                 <CurrencyFormField
                     name="balance"
-                    label={_("Closing balance on bank statement as of {0}", [formatDate(date, 'Do MMM YYYY')])}
+                    label={_("Closing balance on bank statement as of {0}", [formatDate(date, 'Do MMM YYYY')], 'Do MMM YYYY')}
                     isRequired
                     currency={currency}
                 />
@@ -395,7 +395,7 @@ const ClosingBalancesList = ({ bankAccount, date }: { bankAccount: SelectedBank 
 
     return <div>
         <Separator className="my-8" />
-        <p className="text-p-sm text-center pb-2">{_("Balances as per bank statement before {0}", [formatDate(date, 'Do MMM YYYY')])}</p>
+        <p className="text-p-sm text-center pb-2">{_("Balances as per bank statement before {0}", [formatDate(date, 'Do MMM YYYY')], 'Do MMM YYYY')}</p>
         <Table>
             <TableHeader>
                 <TableRow>
