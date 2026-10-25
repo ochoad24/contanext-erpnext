@@ -67655,3 +67655,59 @@ msgstr "{0} se movió después de la tarea de la que depende. {1}"
 #, python-brace-format
 msgid "{0} {1} is not linked to Supplier {2}"
 msgstr "{0} {1} no está vinculado al proveedor {2}"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "A client I'm consulting for"
+msgstr "Un cliente al que asesoro"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "A company I work for"
+msgstr "Una empresa para la que trabajo"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Construction / Real Estate"
+msgstr "Construcción / Bienes raíces"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "E-commerce"
+msgstr "Comercio electrónico"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Excel / Spreadsheets"
+msgstr "Excel / Hojas de cálculo"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Food & Beverage"
+msgstr "Alimentos y bebidas"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Healthcare"
+msgstr "Salud"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "My own business"
+msgstr "Mi propio negocio"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Nothing yet - starting fresh"
+msgstr "Nada todavía; estoy comenzando desde cero"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Other"
+msgstr "Otro"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Retail"
+msgstr "Comercio minorista"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Services / Consulting"
+msgstr "Servicios / Consultoría"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Technology / Software"
+msgstr "Tecnología / Software"
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Wholesale / Distribution"
+msgstr "Mayorista / Distribución"

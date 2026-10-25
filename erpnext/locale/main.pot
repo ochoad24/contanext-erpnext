@@ -68947,6 +68947,62 @@ msgstr ""
 msgid "{0} {1} is not linked to Supplier {2}"
 msgstr ""
 
+#: erpnext/public/js/setup_wizard.js
+msgid "A client I'm consulting for"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "A company I work for"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Construction / Real Estate"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "E-commerce"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Excel / Spreadsheets"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Food & Beverage"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Healthcare"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "My own business"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Nothing yet - starting fresh"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Other"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Retail"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Services / Consulting"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Technology / Software"
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js
+msgid "Wholesale / Distribution"
+msgstr ""
+
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:870
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:909
 #, python-brace-format
