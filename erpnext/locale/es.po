@@ -64116,7 +64116,7 @@ msgstr "Almacén: {0} no pertenece a {1}"
 #: erpnext/stock/report/stock_balance/stock_balance.js:76
 #: erpnext/stock/report/stock_ledger/stock_ledger.js:30
 msgid "Warehouses"
-msgstr "Almacenes"
+msgstr "Bodegas"
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:178
 msgid "Warehouses with child nodes cannot be converted to ledger"
