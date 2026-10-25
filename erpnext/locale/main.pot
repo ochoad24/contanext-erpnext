@@ -69003,6 +69003,121 @@ msgstr ""
 msgid "Wholesale / Distribution"
 msgstr ""
 
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Cash and Cash Equivalents"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Current Tax Liabilities"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Finance Costs"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Intangible Assets"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Investment Income"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Long-term Borrowings"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Long-term Investments"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Operating Expenses"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Current Assets"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Current Liabilities"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Direct Costs"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Non-current Assets"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Non-current Liabilities"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Operating Income"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Payables"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Receivables"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Reserves and Surplus"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Revenue from Operations"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Share Capital"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Short-term Borrowings"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Tangible Assets"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Trade Payables"
+msgstr ""
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Trade Receivables"
+msgstr ""
+
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:870
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:909
 #, python-brace-format

@@ -67711,3 +67711,118 @@ msgstr "Tecnología / Software"
 #: erpnext/public/js/setup_wizard.js
 msgid "Wholesale / Distribution"
 msgstr "Mayorista / Distribución"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Cash and Cash Equivalents"
+msgstr "Efectivo y equivalentes de efectivo"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Current Tax Liabilities"
+msgstr "Pasivos fiscales corrientes"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Finance Costs"
+msgstr "Costos financieros"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Intangible Assets"
+msgstr "Activos intangibles"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Investment Income"
+msgstr "Ingresos por inversiones"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Long-term Borrowings"
+msgstr "Préstamos a largo plazo"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Long-term Investments"
+msgstr "Inversiones a largo plazo"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Operating Expenses"
+msgstr "Gastos operativos"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Current Assets"
+msgstr "Otros activos corrientes"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Current Liabilities"
+msgstr "Otros pasivos corrientes"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Direct Costs"
+msgstr "Otros costos directos"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Non-current Assets"
+msgstr "Otros activos no corrientes"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Non-current Liabilities"
+msgstr "Otros pasivos no corrientes"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Operating Income"
+msgstr "Otros ingresos operativos"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Payables"
+msgstr "Otras cuentas por pagar"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Other Receivables"
+msgstr "Otras cuentas por cobrar"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Reserves and Surplus"
+msgstr "Reservas y resultados acumulados"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Revenue from Operations"
+msgstr "Ingresos de actividades ordinarias"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Share Capital"
+msgstr "Capital social"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Short-term Borrowings"
+msgstr "Préstamos a corto plazo"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Tangible Assets"
+msgstr "Activos tangibles"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Trade Payables"
+msgstr "Cuentas comerciales por pagar"
+
+#. Name of an Account Category
+#: erpnext/accounts/financial_report_template/account_categories.json
+msgid "Trade Receivables"
+msgstr "Cuentas comerciales por cobrar"
